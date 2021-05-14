@@ -1,0 +1,108 @@
+.container {
+	position: absolute;
+	height: 1080px;
+	width: 1920px;
+	left: 50%;
+	margin-left: -960px;
+}
+
+.top {
+	height: 225px;
+	width: 1920px;
+	position: relative;
+}
+
+.left{
+	width: 45%;
+	height: 100px;
+	float: left;
+}
+
+.right {
+	width: 55%;
+	height: 100px;
+	float: left;
+}
+
+.bottom {
+	height: 600px;
+	width: 1920px;
+	top: 300px;
+	position: relative;	
+	float: left;
+}
+
+.logo {
+	position: absolute;
+	top: 10%;
+	left: 5%;
+}
+
+.menu {
+	font-family: 'Roboto Mono', monospace;
+	left: 60%;
+	top: 22%;
+	position: absolute;
+	font-size: 26px;
+	color: black;
+	text-decoration: none;
+}
+
+.menu:visited {
+	color: black;
+}
+
+.menu:hover {
+	color: #39F4E9;
+}
+
+.person {
+	position: relative;
+	margin-right: 5px;
+}
+
+.description {
+	position: relative;
+	width: 1920px;
+	height: 300px;
+	left: 20px;
+}
+
+.name{
+	float: left;
+	width: 300px;
+	font-family: 'Roboto Mono', monospace;
+	font-size: 18px;
+	margin-right: 84px;
+	text-align: center;
+	color: #39F4E9;
+	text-decoration: none;
+}
+
+.name:hover {
+	color: #B2FF50;
+}
+
+.job {
+	float: left;
+	width: 300px;
+	font-family: 'Roboto Mono', monospace;
+	font-size: 14px;
+	margin-right: 84px;
+	text-align: center;
+}
+
+.title {
+	position: absolute;
+	font-family: 'Roboto Mono', monospace;
+	font-size: 70px;
+	left: 90px;
+}
+
+.explain {
+	position: absolute;
+	font-family: 'Roboto Mono', monospace;
+	font-size: 16px;
+	width: 50%;
+	top: 295px;
+}

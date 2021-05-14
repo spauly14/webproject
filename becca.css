@@ -1,0 +1,96 @@
+.container {
+	position: absolute;
+	height: 1080px;
+	width: 1920px;
+	left: 50%;
+	margin-left: -960px;
+}
+
+.top {
+	height: 225px;
+	width: 1920px;
+	position: relative;
+}
+
+.box {
+	background: black;
+	position: absolute;
+	width: 375px;
+	height: 300px;
+}
+
+.left{
+	width: 25%;
+	height: 150px;
+	float: left;
+}
+
+.right {
+	width: 75%;
+	height: 150px;
+	float: left;
+}
+
+.logo {
+	position: absolute;
+	top: 9%;
+	left: 25%;
+}
+
+.menu {
+	font-family: 'Roboto Mono', monospace;
+	left: 60%;
+	top: 22%;
+	position: absolute;
+	font-size: 26px;
+	color: black;
+	text-decoration: none;
+}
+
+.menu:visited {
+	color: black;
+}
+
+.menu:hover {
+	color: #39F4E9;
+}
+
+.name {
+	font-family: 'Roboto Mono', monospace;
+	font-size: 30px;
+	color: #B2FF50;
+	position: absolute;
+	top: 200px;
+}
+
+.title {
+	font-family: 'Roboto Mono', monospace;
+	font-size: 20px;
+	position: absolute;
+	top: 300px;
+}
+
+.story {
+	font-family: 'Roboto Mono', monospace;
+	margin-right: 120px;
+	position: absolute;
+	top: 400px;
+}
+
+.person {
+	position: absolute;
+	top: 275px;
+}
+
+.button{
+font-family: 'Roboto Mono', monospace;
+	font-size: 14px;
+	position: absolute;
+	top: 150px;
+	color: black;
+	text-decoration: none;
+}
+
+.button:hover {
+	color:  #39F4E9;
+}
